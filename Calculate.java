@@ -9,7 +9,7 @@ public class Calculate {
 		double negat = first - second;
 		double multi = first * second;
 		double divis = first / second;
-		double exp = (double) Math.pow(first, second);
+		double exp = Math.pow(first, second);
 		System.out.println("Sum: " + sum);
 		System.out.println("Negat: " + negat);
 		System.out.println("Multi: " + multi);
